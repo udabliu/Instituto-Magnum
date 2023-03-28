@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<%- include('../partials/head') %>
+<body>
+    
+<%- include('../partials/header') %> 
+
+<main>
+                    <!--CARROUSSEL-->               
+                    <div class="wrapper">
+                      <div class="slide-wrapper" data-slide="wrapper">
+                          <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
+                          <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+                          <div class="slide-list" data-slide="list">
+                              <div class="slide-item" data-slide="item" data-index="0">
+                                  <div class="slide-content">
+                                    <a href="/cuidador"><img class="slide-image" src="/img/genoma.png"/></a>                                     
+                                  </div>
+                              </div>
+                              <div class="slide-item" data-slide="item" data-index="1">
+                                  <div class="slide-content">
+                                    <a href="/prenem"><img class="slide-image" src="/img/geprenem.png" alt="Fortnite" /></a>
+                                  </div>
+                              </div>
+                              <div class="slide-item" data-slide="item" data-index="2">
+                                  <div class="slide-content">
+                                    <img class="slide-image" src="/img/freefire.png" alt="Freefire" />                                    
+                                  </div>
+                              </div>
+                              <div class="slide-item" data-slide="item" data-index="3">
+                                  <div class="slide-content">
+                                    <img class="slide-image" src="/img/gta-v.png" alt="GTA V" />                                     
+                                  </div>
+                              </div>
+                              <div class="slide-item" data-slide="item" data-index="4">
+                                  <div class="slide-content">
+                                    <img class="slide-image" src="/img/halo5.png" alt="Halo 5" />                                    
+                                  </div>
+                              </div>
+                              <div class="slide-item" data-slide="item" data-index="5">
+                                  <div class="slide-content">
+                                    <img class="slide-image" src="/img/league-of-legends.png" alt="League of Legends" />                                     
+                                  </div>
+                              </div>
+                              <div class="slide-item" data-slide="item" data-index="6">
+                                  <div class="slide-content">
+                                    <img class="slide-image" src="/img/red-dead-redemption-2.png" alt="Red Dead Redemption 2" />                                     
+                                  </div>
+                              </div>
+                              <div class="slide-item" data-slide="item" data-index="7">
+                                  <div class="slide-content">
+                                    <img class="slide-image" src="/img/zelda.png" alt="Zelda" />                                     
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="slide-controls" data-slide="controls-wrapper">
+                          </div>
+                      </div>
+                      <section id="sec"></section>
+                  </div>
+
+
+<br>                
+  <!--slogan-->
+
+    <div class="slogan">
+    <h1>CURSOS</h1><br>
+    <p>Se qualifique com quem é destaque no assunto!</p>
+    </div>
+  
+
+
+<!--cards cursos-->
+    <div class="cardsi">
+        <div class="cardi"><br>
+            <h2>Cuidador De Idosos</h2><br><br>
+            <div class="ft1">
+            <img src="/img/cuidador-idosos.jpg" alt="">
+          </div>
+            <p>Aprenda a cuidar de idosos da forma correta!</p><br>
+            <a href="/cuidador"><button>Saiba Mais</button></a>
+            
+        </div>    
+
+          <div class="cardi"><br>
+            <h2>Pré Enem</h2><br>
+            <div class="ft2"><br><br>
+            <img src="/img/estudando.jpg" alt="">
+          </div>
+            <p>qualifique-se para ingressar no vestibular</p><br><br>
+            <a href="/prenem"><button>Saiba Mais</button></a>
+          </div>
+
+          <div class="cardi">
+            <h2>Preparatório para Concursos</h2>
+            <div class="ft3">
+            <img src="/img/prof.jpg" alt="">
+          </div>
+            <p>Garanta já o seu futuro</p><br><br><br>
+            <a href="/preparatorio"><button>Saiba Mais</button></a>
+          </div>
+    </div>
+
+<!--quem somos/about-->
+
+  
+<div class="about-title">
+  <h2>QUEM SOMOS</h2>
+</div>  
+
+<div class="about-container">
+
+  <div class="about-image">
+      <img src="/img/about.png">
+  </div>
+  <div class="about-text">
+    <p>Criada por um grupo de professores especialistas e atuantes por mais de 14 anos na 
+      área de preparatórios para Enem, Cefet/ Coltec e concursos públicos, o Instituto Magnum 
+      surgiu com o intuito de transmitir conhecimento aos alunos que sonham em concluir 
+      seus estudos, ingressar na universidade, cursos técnicos ou em uma carreira pública de sucesso.
+      
+      <p><br>Além da vasta experiência de seus fundadores em preparatórios, o Instituto Magnum conta com um excelente corpo docente
+      rigorosamente selecionado para que seus alunos sejam vitoriosos em suas escolhas e tenham a instituição como referência no 
+      ensino de qualidade e de aprovações!</p>
+      <br><br><br><br>
+      <p>Vem ser Destaque também!!</p>
+    </div>
+ 
+</div>
+
+
+
+<div class="depoimentos">
+<div class="about-title">
+    <h2>DEPOIMENTOS</h2>
+</div> 
+<br>
+<p>Pensando na sua segurança, trazemos aqui alguns feedbacks de alunos e ex-alunos para que você nos conheça mais a fundo e possa ter 
+    a certeza de que aqui no Instituto Magnum você realiza o seu sonho!!
+</p>    
+</div>
+
+<!--botao direciona para o whatsapp-->
+
+
+<%- include('../partials/wpp') %>
+
+<%- include('../partials/footer') %>
+
+<%- include('../partials/scripts') %>
+
+</main>   
+</body>
+</html>

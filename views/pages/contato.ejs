@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<%- include('../partials/head') %>
+<body style="background-color: rgb(255, 255, 255);">
+   
+<%- include('../partials/header') %>
+
+
+<main>
+    <div class="about-title">
+        <h2>Fale Conosco</h2>
+    </div>  
+
+
+<div class="about-container">
+<div class="form-contato">
+    <form action="https://formsubmit.co/solgamsao@gmail.com" method="POST">
+        <h1>Contato</h1><br><br>
+        <div class="input-group">
+            <div class="input-box">
+                <label for="name">Nome Completo *</label>
+                <input type="text" name="name" id="name" placeholder="Nome" required>
+            </div>
+
+            <div class="input-box">
+                <label for="email">Seu Email *</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="hidden" name="_captcha" value="false">
+            </div>
+
+            <div class="input-box">
+                <label for="telefone">Telefone Celular *</label>
+                <input type="tel" name="telefone" maxlength="11" id="telefone" placeholder="(xx)xxxxx-xxxx" required>
+            </div>
+            <div class="input-box">
+                <label for="telefone">Mensagem *</label><br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="12" required></textarea>
+            </div>
+        </div>
+            <input type="hidden" name="_next" value="http://localhost:5500/contato">
+       
+         <div class="btn-contato">
+            <input type="submit" value="Enviar">
+        </div> 
+    </form>
+</div>
+    <div class="funcionamento">
+        <h2><i class="fa-regular fa-clock"></i> Seg a Sex: 8:00h às 17:00h
+            <br> Sábado: 8:00h às 12:00h</h2><br><br>
+            <h4><i class="fab fa-whatsapp"></i> (31) 99579-4165</h4><br>
+            <h4><i class="fa fa-envelope"></i> secretariainstitutomagnum@gmail.com</h4><br>
+            <h4><i class="fa-solid fa-location-dot"></i> R. Monsenhor Bicalho, 1129 - Eldorado, Contagem - MG, 32310-220</h4><br><br><br>
+        
+        <div class="maps">
+         <!--google maps-->
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.573884924604!2d-44.036926799999996!3d-19.9423536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa695ec8c44bb05%3A0x3dd0ce6369692f3d!2sR.%20Monsenhor%20Bicalho%2C%201129%20-%20Eldorado%2C%20Contagem%20-%20MG%2C%2032310-220!5e0!3m2!1spt-BR!2sbr!4v1674128882438!5m2!1spt-BR!2sbr" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        </div>
+    </div>
+</div>
+
+
+    
+
+
+
+<%- include('../partials/wpp') %>
+
+<%- include('../partials/scripts') %>
+
+
+<%- include('../partials/footer') %>
+</main>
+</body>
+</html>
